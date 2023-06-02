@@ -1,0 +1,71 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+section{
+  display: flex;
+  width: 100%;
+  border: 10px solid black;
+}
+
+div{
+  display: flex;
+  width: 100%;
+  border: 5px solid blue;
+  padding: 20px 0;
+}
+
+div>input,label,button{
+  flex-direction: column;
+}
+
+.nextQuestion1, .nextQuestion2{
+  border-bottom: 3px solid black;
+}
+
+section>img.ranks{
+  flex-direction: column;
+  width: 25%;
+  height: 200px;
+  border: 2px solid red;
+}
+
+section>img.hero{
+  flex-direction: column;
+  width: 33.33%;
+  height: 200px;
+  border: 2px solid red;
+}
+
+#robinHero{
+  color: red;
+  font-style: bold;
+}
+
+h1{
+  color: gold;
+  background-color: black;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+.hidden1{
+  display: none;
+}
+
+.hidden2{
+  display: none;
+}
+
+.hidden3{
+  display: none;
+}
