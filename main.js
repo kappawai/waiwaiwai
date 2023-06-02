@@ -2,7 +2,7 @@ document.querySelector('#guessbutton').addEventListener('click',rankidentify);
 
 function rankidentify(){
     robinRank=document.querySelector('#mmrguess').value;
-    robinRank.toLowerCase;
+    robinRank.toLowerCase();
 
     if(robinRank==='immortal'){
         alert("Yes, Robin has a rank of Immortal!!!");
